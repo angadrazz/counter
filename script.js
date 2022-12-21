@@ -10,7 +10,7 @@ function startCounter() {
         clearInterval(countInterval);   // This is important for the condition when a counter is running and you entered a wrong input for a new counter
         return;
     }
-    if (number < 1 || number > 9) {
+    if (number < 1 || number > 1000) {
         alert("Range out of bounds");
         clearInterval(countInterval);
         return;
