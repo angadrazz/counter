@@ -5,3 +5,10 @@ function startCounter(){
     var interval = setInterval(animate, 1000);
         
 }
+
+function animate(){
+    next.classList.add('animate');
+    setTimeout(function(){
+        next.classList.remove('animate');
+    })
+}
